@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:petrolhead/view/screens/login_screen.dart';
+import 'package:petrolhead/view/screens/welcome_screen.dart';
 
 import 'view/screens/splash_screen.dart';
 
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: {
           '/':(p0) => SplashScreen(),
-          '/login':(p0) => LoginScreen()
+          '/login':(p0) => LoginScreen(),
+          '/welcome':(p0) => WelcomeScreen()
         },
         // home: SplashScreen(),
       ),
